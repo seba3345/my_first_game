@@ -352,3 +352,64 @@ body {
     top: 0;
 
 }
+
+.wall_bear {
+    animation-name: wall_bear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.water_bear {
+    animation-name: water_bear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.bot_bear {
+    animation-name: bot_bear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes wall_bear {
+    0% {
+        transform: translateX(-10vw) scale(0.1) scaleX(-1);
+    }
+
+    50% {
+        transform: translateX(0vw) scaleX(-1)
+    }
+
+    100% {
+        transform: translateX(-10vw) scale(0.1) scaleX(-1)
+    }
+}
+
+@keyframes water_bear {
+    0% {
+        transform: rotate(-30deg);
+    }
+
+    50% {
+        transform: scale(0.7)
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+@keyframes bot_bear {
+    0% {
+        transform: translateY(30vw);
+    }
+
+    50% {
+        transform: scale(0.7)
+    }
+
+    100% {
+        transform: ;
+    }
+}
