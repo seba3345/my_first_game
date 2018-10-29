@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    background: black;
+    overflow-x: hidden;
+    overflow-y: ;
+
+}
+
+
+#screen {
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+
+#menu_background {
+    background-image: url("assets/startsk%C3%A6rm-baggrund.svg");
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    display: none;
+
+}
+
+#menu_foreground {
+    background-image: url("assets/startsk%C3%A6rm-forgrund.svg");
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    display: none;
+
+}
+
+#start {
+    background-image: url("assets/frontpage-play-button.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 18vw;
+    height: 25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: 10vw;
+    left: 44vw;
+    display: none;
+
+}
+
+#settings {
+    background-image: url("assets/frontpage-settings-button.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 6vw;
+    height: 6vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: .8vw;
+    left: 92.59vw;
+    display: none;
+}
+
+#settings_screen {
+    background-image: url("assets/indstillinger%20menu.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 49vw;
+    height: 80vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: 10vw;
+    left: 25vw;
+    display: none;
+}
+
+#check {
+    background-image: url("assets/checkmark.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 5vw;
+    height: 5vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: 8vw;
+    left: 16.5vw;
+
+}
+
+#gameover {
+    background-image: url("assets/gameover-screen.svg");
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: 0vw;
+    left: 0vw;
+    display: none;
+}
+
+#replay_go {
+    background-image: url("assets/replay-button.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 7vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: 8vw;
+    left: 69vw;
+}
+
+#menu_go {
+    background-image: url("assets/Menu-button.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 7vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: 8vw;
+    left: 23vw;
+}
+
+#victory {
+    background-image: url("assets/victory-screen.svg");
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: -1.2vw;
+    left: 2vw;
+    display: none;
+
+}
+
+#replay_vic {
+    background-image: url("assets/replay-button.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 9vw;
+    height: 7vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: 9vw;
+    left: 67vw;
+}
+
+#menu_vic {
+    background-image: url("assets/Menu-button.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 9vw;
+    height: 7vw;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: 9vw;
+    left: 20vw;
+}
+
+#game {
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+
+#game_background {
+    background-image: url("assets/gamescreen-background.svg");
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 0;
+
+}
+
+#game_middleground {
+    background-image: url("assets/gamescreen-middleground.svg");
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+
+}
+
+#game_foreground {
+    background-image: url("assets/gamescreen-front.svg");
+    background-size: cover;
+    width: 100%;
+    height: 56.25vw;
+    margin: auto;
+    position: absolute;
+    z-index: 2;
+}
+
+
+#red_bear {
+    background-image: url("assets/evil-bear.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 13vw;
+    height: 39.5vw;
+    z-index: 1;
+    top: 23vw;
+    left: 79.5vw;
+    transform: rotate(-30deg)
+}
+
+#red_bear2 {
+    background-image: url("assets/evil-bear.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 11vw;
+    height: 39.5vw;
+    z-index: 0;
+    transform: scaleX(-1);
+    top: 25vw;
+    left: 7vw;
+}
+
+#green_bear {
+    background-image: url("assets/sick-bear.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 19vw;
+    height: 39.5vw;
+    z-index: 0;
+    top: 23.4vw;
+    left: 39vw;
+    transform: rotate(6deg) scaleX(-1);
+
+
+}
+
+#green_bear2 {
+    background-image: url("assets/sick-bear.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 23vw;
+    height: 34vw;
+    z-index: 1;
+    top: 39.6vw;
+    left: 10vw;
+}
+
+#game_ui {
+    background-size: 100%;
+    width: 80vw;
+    height: 7vw;
+    position: relative;
+    z-index: 4;
+}
+
+#time_bar {
+    background-image: url("assets/time-bar.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30vw;
+    height: 100%;
+
+    left: 68vw;
+    top: 2vw;
+}
+
+#time_man {
+    background-image: url("assets/time-bar-man.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 7vw;
+    height: 13vw;
+    left: 73vw;
+    top: 0.9vw;
+}
+
+#pause {
+    background-image: url("assets/pause-button.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 9vw;
+    height: 100%;
+    z-index: 4;
+    left: 20vw;
+    top: 1vw;
+}
+
+#menu {
+    background-image: url("assets/Menu-button.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 9vw;
+    height: 100%;
+    z-index: 4;
+    left: 1vw;
+    top: 1vw;
+}
+
+#settings_button {
+    background-image: url("assets/settings-button.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 9vw;
+    height: 100%;
+    z-index: 4;
+    left: 10.5vw;
+    top: 1vw;
+}
+
+#slime {
+    background-image: url("assets/snot-klatter.svg");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 56.25vw;
+    z-index: ;
+    left: 0;
+    top: 0;
+    display: none;
+}
